@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
-
 from trio import sleep
 
 # Start Chrome driver
@@ -22,3 +21,4 @@ driver.find_element(By.XPATH, "//button[@type='submit']").click()
 
 #To close browser
 driver.close()
+
