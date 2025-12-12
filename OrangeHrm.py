@@ -16,10 +16,11 @@ driver.find_element(By.NAME, "username").send_keys("Admin")
 # Enter password automate
 driver.find_element(By.NAME, "password").send_keys("admin123")
 
-# Click Login button
+# Click Login btn
 driver.find_element(By.XPATH, "//button[@type='submit']").click()
 
 #To close browser
 driver.close()
+
 
 
