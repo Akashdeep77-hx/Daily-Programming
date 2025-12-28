@@ -6,7 +6,7 @@ from trio import sleep
 
 
 # Start Chrome driver
-driver = webdriver.Chrome(service=Service("C:\\Windows\\chromedriver.exe"))
+driver = webdriver.Chrome(service=Service("C:\\Windows\\chromedriver.exe"))    #to open chrome
 
 # Open website
 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
@@ -22,6 +22,7 @@ driver.find_element(By.XPATH, "//button[@type='submit']").click()
 
 #To close browser
 driver.close()
+
 
 
 
