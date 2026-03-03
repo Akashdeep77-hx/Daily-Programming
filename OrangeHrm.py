@@ -5,7 +5,7 @@ import time sleep sleep
 
 
 
-from trio import sleep
+from trio import sleep sleep
 
 
 # Start Chrome driver
@@ -25,6 +25,7 @@ driver.find_element(By.XPATH, "//button[@type='submit']").click()
 
 #To close browser
 driver.close()
+
 
 
 
